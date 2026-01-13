@@ -1,0 +1,5 @@
+#!/usr/bin/python3
+age = int(input("Please tell me your age: "))
+print(f"You are currently {age} years old.")
+for x in range(1, 4):
+    print(f"In {10 * x} years, you'll be {age + 10 * x} years old.")
